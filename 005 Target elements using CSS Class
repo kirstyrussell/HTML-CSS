@@ -1,0 +1,30 @@
+<!--
+If we want to be a bit more specific as to the elements we want to target. We can use a class. Elements that have the same class will be targeted.
+
+Make the 3 paragraphs text red by using the class red in the <style> tag. A reminder on how to use class in a CSS declaration:
+
+.red {
+  color: red;
+}
+
+.red need to set color red
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+  <style>
+    .red {
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <p>Keep this paragraph black.</p>
+  <p class="red">Make this paragraph Red.</p>
+  <p class="red">Make this paragraph Red.</p>
+  <p class="red">Make this paragraph Red.</p>
+</body>
+</html>

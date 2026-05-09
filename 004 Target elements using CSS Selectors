@@ -1,0 +1,29 @@
+<!--
+We can use type selectors to target specific elements in your HTML and apply custom styles. In the <style> tag, add CSS declaration so h1 becomes blue and p becomes red.
+
+The property for setting the color of the text is color.
+
+h1 should have color blue
+
+p should have color red
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+  <style>
+    h1 {
+      color:blue;
+    }
+    p {
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Make this heading blue.</h1>
+  <p>Make this paragraph red.</p>
+</body>
+</html>
