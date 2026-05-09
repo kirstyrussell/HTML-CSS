@@ -1,0 +1,19 @@
+<!-- 
+ Add an anchor element <a> to the body that points to https://www.google.com with the text saying Go to Google.
+
+Anchor elements look like this
+
+<a href="www.website.com">Click to go to website</a>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Altcademy</title>
+</head>
+<body>
+  <!-- Add your code below this comment -->
+  <a href="https://www.google.com/">Go to Google.</a>
+</body>
+</html>
